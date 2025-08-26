@@ -1,6 +1,6 @@
-package dat108;
+package oppgave2;
 
-public class Oppg1a {
+public class Oppg2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
