@@ -1,4 +1,4 @@
-package oppgave2;
+package oppgave3;
 
 public class Ansatt {
 
@@ -30,5 +30,17 @@ public class Ansatt {
 	public String toString() {
 		return "Ansatt [fornavn=" + fornavn + ", etternavn=" + etternavn + ", kjonn=" + kjonn + ", stilling=" + stilling
 				+ ", aarslonn=" + aarslonn + "]";
+	}
+
+	public String getEtternavn() {
+		return etternavn;
+	}
+
+	public Kjonn getKjonn() {
+		return kjonn;
+	}
+	
+	public String getStilling() {
+		return stilling;
 	}
 }
