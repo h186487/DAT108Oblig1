@@ -37,24 +37,20 @@ public class Oppg2 {
 		
 		System.out.println("Original lønn:");
 		skrivUtAlle(ansatte);
-		System.out.println();
-		
-		System.out.println("Fast kronetillegg:");
+
+		System.out.println("\nFast kronetillegg:");
 		lonnsoppgjor(ansatte, fastKroneTillegg);
 		skrivUtAlle(ansatte);
-		System.out.println();
 		
-		System.out.println("Fast prosenttillegg:");
+		System.out.println("\nFast prosenttillegg:");
 		lonnsoppgjor(ansatte, fastProsentTillegg);
 		skrivUtAlle(ansatte);
-		System.out.println();
-		
-		System.out.println("Fast kronetillegg hvis lav lønn:");
+
+		System.out.println("\nFast kronetillegg hvis lav lønn:");
 		lonnsoppgjor(ansatte, fastKroneTilleggLav);
 		skrivUtAlle(ansatte);
-		System.out.println();
 		
-		System.out.println("Fast prosenttillegg hvis mann:");
+		System.out.println("\nFast prosenttillegg hvis mann:");
 		lonnsoppgjor(ansatte, fastProsentTilleggMann);
 		skrivUtAlle(ansatte);
 		

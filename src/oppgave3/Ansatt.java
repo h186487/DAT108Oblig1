@@ -43,4 +43,12 @@ public class Ansatt {
 	public String getStilling() {
 		return stilling;
 	}
+	
+	static boolean erKvinne(Ansatt n) {
+		return n.getKjonn() == Kjonn.KVINNE;
+	}
+	
+	static boolean erSjef(Ansatt n) {
+		return n.getStilling().contains("Chief");
+	}
 }
